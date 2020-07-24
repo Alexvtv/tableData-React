@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-data {
+	border: 1px solid #000;
+	border-top: 0;
+}
+.userData {
+	width: 832px;
+	margin: 20px auto;
+}
+.table-main {
+	margin: 0 auto;
+	width: 832px;
+}
+.table-data__id, .table-data__firstName, .table-data__lastName, .table-data__email, .table-data__phone {
+	display: inline-block;
+}
+.table-main .table-data__id {
+	width: 70px;
+}
+.table-main .table-data__firstName {
+	width: 140px;
+}
+.table-main .table-data__lastName {
+	width: 160px;
+}
+.table-main .table-data__email {
+	width: 320px;
+}
+.table-main .table-data__phone {
+	width: 140px;
+}
+
+.userInterface {
+	text-align: center;
+	width: 832px;
+	margin: 20px auto 20px auto;
+}
+.userInterface .choiceButtons {
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+.userInterface .choiceButtons p {
+	margin-bottom: 0;
+}
+.userInterface .choiceButtons button {
+	margin: 0 12px;
+}
+.userInterface .searchMenu {
+	margin-left: 40px;
+	vertical-align: top;
+	display: inline-block;
+}
+.userInterface .searchMenu p {
+	margin: 35px 0 0 0;
+}
+.userInterface .addUser {
+	vertical-align: top;
+	margin-left: 40px;
+	display: inline-block;
+}
+.userInterface .addUser button {
+	margin: 38px 0 0 0;
+}
+
+.activeButton {
+	background: #d6be89;
+}
+.activeCategory {
+  background: -webkit-linear-gradient(bottom, rgba(10, 122, 14, 0.8), #fff);
+  background: -o-linear-gradient(bottom, rgba(10, 122, 14, 0.8), #fff);
+  background: linear-gradient(to top, rgba(10, 122, 14, 0.8), #fff);
+}
+.activeCategoryReverse {
+  background: -webkit-linear-gradient(rgba(125, 15, 15, 0.8), #fff);
+  background: -o-linear-gradient(rgba(125, 15, 15, 0.8), #fff);
+  background: linear-gradient(rgba(125, 15, 15, 0.8), #fff);
+}
+
+.inputArea {
+	padding: 0 20px;
+	position: absolute;
+	width: 600px;
+	height: 160px;
+	background: #d1d1d1;
+	top: 0;
+	left: 0;
+}
+.inputArea .leftBlockArea, .inputArea .rightBlockArea {
+	width: 299px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+.inputArea p {
+	margin: 8px 0;
+	text-align: right;
+	width: 100%;
+	display: inline-block;
+}
+.inputArea p input {
+	width: 150px;
+	float: right;
+}
+.inputArea button {
+	margin: 8px 0;
+}
+.inputArea button.add {
+	float: right;
+}
+
+.hidden {
+	visibility: hidden;
+}
