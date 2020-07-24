@@ -35,7 +35,6 @@ export class DataTable extends React.Component {
 			this.setState({ actualPage: 1 })
 		} else if(Math.ceil(this.props.users.length/50) >= page) {
 			this.setState({ actualPage: page })
-			console.log(`новая страница: ${page}`)
 		}
 	}
 

@@ -25,7 +25,6 @@ class App extends React.Component {
       })
       .then(data => {
           this.setState({ users: data, isLoading: false });
-          console.log(this.state.users);
       })
       .catch(alert);
   }
@@ -53,7 +52,6 @@ class App extends React.Component {
         })
         .then(data => {
           this.setState({ users: data, isLoading: false })
-          console.log(this.state.users)
         })
         .catch(alert);
     }
@@ -61,7 +59,6 @@ class App extends React.Component {
 
   setCurrentUser = user => {
     this.setState({ currentUser: user })
-    console.log('Пользователь выбран!')
   }
 
   changeValue = e => {
